@@ -78,7 +78,7 @@ services:
       - backend
 
   seed:
-    build: ./seed-data
+    build: .
     profiles: ["seed"]
     depends_on:
       vote:
